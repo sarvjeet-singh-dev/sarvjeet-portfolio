@@ -21,6 +21,11 @@ Unlike traditional portfolios, this system does not rely on hardcoded UI updates
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](/project1.png)
+
 ### Project Intelligence Layer
 
 - Dedicated dynamic project details system
