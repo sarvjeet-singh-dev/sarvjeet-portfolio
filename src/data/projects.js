@@ -85,9 +85,9 @@ export const projects = [
       }
     ],
 
-    githubRepo: "https://github.com/your-repo",
+    githubRepo: "https://github.com/sarvjeet-singh-dev/sarvjeet-portfolio.git",
 
-    liveDemo: "https://your-demo-link.com"
+    liveDemo: "https://sarvjeet-dev-portfolio.netlify.app/"
   },
 
   {
@@ -168,7 +168,7 @@ export const projects = [
       }
     ],
 
-    githubRepo: "https://github.com/your-repo",
+    githubRepo: "https://github.com/sarvjeet-singh-dev/tickd-todo.git",
 
     liveDemo: "https://tickd-todo.netlify.app/"
   },
@@ -250,7 +250,7 @@ export const projects = [
       }
     ],
 
-    githubRepo: "https://github.com/your-repo",
+    githubRepo: "https://github.com/sarvjeet-singh-dev/atmos-weather.git",
 
     liveDemo: "https://atmos-weatherapp.netlify.app/"
   },
@@ -334,8 +334,8 @@ export const projects = [
       }
     ],
 
-    githubRepo: "https://github.com/your-repo",
+    githubRepo: "https://github.com/sarvjeet-singh-dev/nextbyte-e-commerce.git",
 
-    liveDemo: "https://nexbyte-e-commerce.netlify.app/"
+    liveDemo: "https://nextbyte-e-commerce.netlify.app/"
   }
 ];

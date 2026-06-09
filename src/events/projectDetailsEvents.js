@@ -9,6 +9,12 @@ export const projectEvents = () => {
     document.addEventListener("click",(e)=>{
         const card = e.target.closest(".project-cards");
 
+        if(!card) return;
+
+        if(e.target.closest(".live-demo"))return;
+
+        if(e.target.closest(".github-link"))return;
+
         if(card){
 
             const projectId = Number(card.dataset.id);
