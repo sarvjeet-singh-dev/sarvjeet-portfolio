@@ -1,3 +1,4 @@
+import portfolio from "/project1.png"
 import TodoApp from "../assets/images/project/TodoApp.png";
 import WeatherApp from "../assets/images/project/weatherApp.png";
 import EcommerceMainPage from "../assets/images/project/EcommerceMainPage.png";
@@ -18,10 +19,10 @@ export const projects = [
     fullDescription:
       "This portfolio was developed to showcase frontend engineering skills while following a scalable architecture pattern. Instead of placing all logic in a single file, the application uses a custom SER architecture that separates state management, event handling, and rendering logic. The project focuses on maintainability, scalability, reusable UI components, dynamic rendering, and responsive design.",
 
-    projectImage: "/project1",
+    projectImage: portfolio,
 
     screenshots: [
-      "/project1.png"
+      portfolio
     ],
 
     techStack: [
