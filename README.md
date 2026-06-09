@@ -1,167 +1,175 @@
-# Developer Portfolio Website
+# Developer Portfolio System
 
 ## Overview
 
-This is a modern developer portfolio built using a custom **SER (State, Events, Render)** architecture. The project is designed to demonstrate real-world frontend engineering practices such as modular architecture, dynamic rendering, reusable components, and scalable project structure.
+This is a modern developer portfolio built with a custom **SER (State, Events, Render)** architecture.
 
-Unlike traditional portfolios, this system is fully data-driven — meaning new projects can be added simply by updating a central data file, without modifying UI logic.
+The project is designed to simulate real-world frontend system design practices — focusing on modular architecture, event-driven updates, and fully data-driven UI rendering.
 
----
-
-## Features
-
-### Dynamic Portfolio System
-
-* Fully dynamic project rendering from centralized data
-* New projects automatically appear without UI changes
-* Event delegation used for efficient interaction handling
-
-### Project Details System
-
-* Dedicated dynamic project details page
-* Full project overview with:
-
-  * Features
-  * Challenges
-  * Learnings
-  * Engineering process
-* Component-based rendering system
-
-### Architecture Implementation
-
-* Custom SER Architecture:
-
-  * State → Events → Render
-* Clear separation of logic and UI layers
-* Scalable and maintainable structure
-
-### Multi-Page Logic Handling
-
-* Smart routing logic without frameworks
-* Page detection using DOM-based conditions
-* Separate rendering flows for:
-
-  * Home page
-  * Project details page
+Unlike traditional portfolios, this system does not rely on hardcoded UI updates. Instead, the entire interface is generated from a centralized data layer, allowing new projects to be added without touching the rendering logic.
 
 ---
 
-## Architecture Breakdown
+## Core Features
 
-### SER System
+### Dynamic Portfolio Engine
 
-#### State
-
-Manages global project data, UI state, and shared application data.
-
-#### Events
-
-Handles all user interactions including navigation and project selection.
-
-#### Render
-
-Responsible for generating and updating UI components dynamically.
+- Fully data-driven project rendering system
+- Centralized data layer controls entire UI output
+- New projects auto-render without UI modifications
+- Optimized interaction handling using event delegation
 
 ---
 
-## Page Initialization Logic
+### Project Intelligence Layer
 
-The application uses a manual routing system inside `main.js` to handle multiple pages:
-
-* Detects current page using DOM identifiers
-* Loads only required modules per page
-* Prevents unnecessary rendering logic execution
-
-This ensures performance optimization and clean separation of concerns.
-
----
-
-## Key Technical Implementation
-
-### 1. Dynamic Page Detection
-
-The app determines which page is active:
-
-* Index Page → Loads main portfolio rendering system
-* Details Page → Loads project detail rendering system
+- Dedicated dynamic project details system
+- Structured project breakdown including:
+  - Features
+  - Engineering challenges
+  - Implementation insights
+  - Learning outcomes
+- Reusable component-based rendering pipeline
 
 ---
 
-### 2. Centralized Entry Point (main.js)
+### SER Architecture (Custom Built)
 
-Controls application flow and ensures modular execution:
+A lightweight frontend architecture inspired by modern state-driven systems.
 
-* Initializes events only when required
-* Separates page-specific logic
-* Prevents cross-page dependency issues
+- **State → single source of truth**
+- **Events → interaction layer**
+- **Render → UI synchronization layer**
 
----
-
-### 3. Dynamic Project Rendering
-
-Projects are rendered from a single data source:
-
-* Adding a new project requires only updating the data file
-* UI automatically adapts without code changes
+Ensures predictable UI updates and clean separation of concerns.
 
 ---
 
-### 4. Event Delegation
+### Multi-Page System (Framework-Free)
 
-Efficient event handling system used for:
+- Manual routing system built using DOM-level detection
+- Separate execution flows per page context
+- Prevents unnecessary script execution across pages
+- Lightweight SPA-like behavior without frameworks
 
-* Project clicks
-* Navigation actions
-* Dynamic component interactions
+---
 
-Reduces unnecessary event listeners and improves performance.
+## Architecture Design
+
+### State Layer
+
+Centralized state container managing:
+- Project dataset
+- UI state
+- Shared application context
+
+---
+
+### Event Layer
+
+Handles all user interactions:
+- Navigation triggers
+- Project selection
+- UI interaction binding
+
+Uses event delegation to minimize DOM listeners and improve performance.
+
+---
+
+### Render Layer
+
+Responsible for:
+- Dynamic DOM generation
+- UI updates based on state changes
+- Component rendering logic
+
+Keeps UI logic isolated from business logic.
+
+---
+
+## Application Flow
+
+### Page Detection System
+
+The entry point (`main.js`) determines execution flow based on DOM context:
+
+- **Home Page** → Initializes portfolio rendering engine
+- **Details Page** → Loads project detail renderer only
+
+This prevents cross-page logic leakage and unnecessary computation.
+
+---
+
+### Central Execution Controller
+
+`main.js` acts as the orchestration layer:
+
+- Initializes page-specific modules
+- Controls execution lifecycle
+- Prevents redundant rendering cycles
+
+---
+
+### Dynamic Rendering Pipeline
+
+- UI is generated directly from structured data
+- No hardcoded project elements
+- Single update point (data file) reflects across entire UI
+
+---
+
+### Event Delegation Strategy
+
+Instead of attaching multiple listeners:
+
+- Single delegated listener handles interactions
+- Improves performance
+- Reduces memory overhead
+- Supports dynamic elements seamlessly
 
 ---
 
 ## Tech Stack
 
-* JavaScript (ES6+)
-* HTML5
-* Tailwind CSS
-* Vite
+- JavaScript (ES6+)
+- HTML5
+- Tailwind CSS
+- Vite
 
 ---
 
-## Skills Demonstrated
+## Engineering Highlights
 
-* Frontend Architecture Design
-* State Management (Vanilla JS)
-* Event-Driven Programming
-* Dynamic Rendering Systems
-* Multi-Page SPA-like Logic (without frameworks)
-* Component-Based Design
-* Data-Driven UI Systems
-* Modular Code Organization
-* Performance Optimization
+- Custom frontend architecture (SER pattern)
+- State-driven UI system (vanilla implementation)
+- Framework-free multi-page logic handling
+- Component-based rendering design
+- Event delegation for performance optimization
+- Data-driven UI generation system
+- Modular and scalable code structure
 
 ---
 
-## Challenges Faced
+## System Challenges Solved
 
-* Managing dynamic rendering across multiple pages without a framework
-* Avoiding tight coupling between state, events, and UI logic
-* Designing scalable architecture for project expansion
-* Handling component rendering consistency across pages
-* Implementing clean separation between routing and rendering logic
+- Managing UI consistency across multiple pages without frameworks
+- Avoiding tight coupling between state, events, and rendering
+- Designing scalable project expansion without UI rewrite
+- Handling modular rendering flow across different contexts
+- Maintaining separation between routing and UI logic
 
 ---
 
 ## Key Learnings
 
-* Built a scalable frontend architecture without frameworks
-* Learned how state-driven UI systems work internally
-* Improved understanding of rendering pipelines
-* Designed reusable component-based systems
-* Understood real-world project scalability challenges
+- How state-driven systems behave at a low level
+- Practical implementation of reactive UI concepts without frameworks
+- Architecture planning for scalable frontend systems
+- Component reusability in vanilla JavaScript
+- Performance tradeoffs in DOM-heavy applications
 
 ---
 
 ## Live Demo
 
 [https://sarvjeet-dev-portfolio.netlify.app/]
-
