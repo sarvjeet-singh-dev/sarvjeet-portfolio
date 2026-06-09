@@ -24,7 +24,7 @@ Unlike traditional portfolios, this system does not rely on hardcoded UI updates
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](/project1.png)
+![Home Page](/public/project1.png)
 
 ### Project Intelligence Layer
 
