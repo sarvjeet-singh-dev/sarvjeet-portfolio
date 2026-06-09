@@ -1,6 +1,6 @@
 import portfolio from "/project1.png"
 import TodoApp from "../assets/images/project/TodoApp.png";
-import WeatherApp from "../assets/images/project/weatherApp.png";
+import WeatherApp from "../assets/images/project/WeatherApp.png";
 import EcommerceMainPage from "../assets/images/project/EcommerceMainPage.png";
 import EcommerceProducts from  "../assets/images/project/EcommerceCart.png";
 import EcommerceDeatils from  "../assets/images/project/EcommerceDetails.png";
