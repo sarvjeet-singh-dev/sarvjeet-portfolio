@@ -4,7 +4,7 @@ export const Navbar = () => {
     <!-- Hamburger Icon -->
     <button id="btn-hamburger" class="px-2 rounded-full cursor-pointer active:scale-95 bg-gray-800/40 hover:bg-green-800 transition-all duration-300"><i class="ri-menu-5-line"></i></button>
 
-    <a href="/index.html" id="web-logo" class="text-lg md:text-3xl font-bold leading-tight">
+    <a href="/sarvjeet-portfolio/index.html" id="web-logo" class="text-lg md:text-3xl font-bold leading-tight">
       Sarvjeet.dev
     </a>
    </div>
@@ -19,12 +19,12 @@ export const Navbar = () => {
         gray-600 flex 
         flex-col items-center 
         gap-4 py-4">
-          <li><a href="/index.html" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Home</a></li>
-          <li><a href="/index#about" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">About</a></li>
-          <li><a href="/index#skills" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Skills</a></li>
-          <li><a href="/index#engineering-process" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Engineering Process</a></li>
-          <li><a href="/index#featured-projects" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Featured Projects</a></li>
-          <li><a href="/index#contact" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Contact</a></li>
+          <li><a href="/sarvjeet-portfolio/index.html" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Home</a></li>
+          <li><a href="/sarvjeet-portfolio/index#about" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">About</a></li>
+          <li><a href="/sarvjeet-portfolio/index#skills" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Skills</a></li>
+          <li><a href="/sarvjeet-portfolio/index#engineering-process" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Engineering Process</a></li>
+          <li><a href="/sarvjeet-portfolio/index#featured-projects" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Featured Projects</a></li>
+          <li><a href="/sarvjeet-portfolio/index#contact" class="rounded-xl px-5 py-1 hover:bg-green-800 transition-all duration-300">Contact</a></li>
         </ul>
       </div>
 
