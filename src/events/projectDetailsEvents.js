@@ -25,7 +25,7 @@ export const projectEvents = () => {
 
             storage.set("projectDetails",projectState.detailsPageData);
             
-            window.location.href = "/src/pages/projectDetailsPage.html"
+            window.location.href = "/sarvjeet-portfolio/src/pages/projectDetailsPage.html";
         };
 
     });
