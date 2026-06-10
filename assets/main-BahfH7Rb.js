@@ -77,7 +77,7 @@
     </section>
     
   <section id="hero-section-right" class="flex justify-center items-center h-full w-full">
-    <img src="/heroImage.jpeg" alt="Hero Image" class="w-400 h-auto rounded-4xl object-cover px-5">
+    <img src="/sarvjeet-portfolio/heroImage.jpeg" alt="Hero Image" class="w-400 h-auto rounded-4xl object-cover px-5">
   </section>
       `,n=()=>`
   <section id="about-left-section" class="flex flex-col justify-start items-center text-center gap-5 px-5">
