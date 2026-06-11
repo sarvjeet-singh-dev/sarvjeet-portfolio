@@ -29,7 +29,7 @@ export const hero = () => {
         class="inline-block text-sm md:text-base px-4 py-2 md:px-6 md:py-3 active:scale-95 rounded-full cursor-pointer bg-green-500/40 hover:bg-green-800 transition-all duration-300">
           View Projects
         </a>
-        <button class="text-sm md:text-base px-4 py-2 md:px-6 md:py-3 border active:scale-95 rounded-full cursor-pointer hover:border-green-500/40 transition-all duration-300">GitHub</button>
+        <a href="https://github.com/sarvjeet-singh-dev?tab=repositories" class="text-sm md:text-base px-4 py-2 md:px-6 md:py-3 border active:scale-95 rounded-full cursor-pointer hover:border-green-500/40 transition-all duration-300">GitHub</a>
       </div>
     </section>
     
