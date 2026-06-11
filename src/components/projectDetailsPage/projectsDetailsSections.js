@@ -85,7 +85,7 @@ export const projectDetailsSection = () => {
     return `
         <div class="flex flex-col justify-center items-center w-full gap-3">
             <div class="w-full flex md:px-6 py-2">
-                <a href="/index.html#featured-projects" class="border border-gray-500 px-4 py-1 rounded-full text-sm text-gray-400 hover:bg-green-800 hover:text-white transition-all duration-300">
+                <a href="/sarvjeet-portfolio/#featured-projects" class="border border-gray-500 px-4 py-1 rounded-full text-sm text-gray-400 hover:bg-green-800 hover:text-white transition-all duration-300">
                     <- Back to Projects 
                 </a>
             </div>
