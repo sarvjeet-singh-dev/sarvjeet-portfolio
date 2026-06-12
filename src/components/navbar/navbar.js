@@ -28,7 +28,7 @@ export const Navbar = () => {
       </ul>
     </div>
 
-    <a href="/sarvjeet-portfolio/sarvjeetResume.pdf" download class="text-sm md:text-base px-4 py-2 rounded-full bg-green-500/40 hover:bg-green-800 transition-all duration-300">
+    <a href="/sarvjeet-portfolio/sarvjeetResume.pdf" download class="text-sm px-1 py-1 sm:px-2 sm:py-1 md:text-base md:px-4 md:py-2 rounded-full bg-green-500/40 hover:bg-green-800 transition-all duration-300">
       Download CV
     </a>
       </div>

@@ -10,7 +10,7 @@ export const about = () => {
 
   </section>
 
-  <section id="about-right-section" class="grid grid-cols-1 lg:grid-cols-5 gap-5 lg:grid-rows-1">
+  <section id="about-right-section" class="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:grid-rows-1">
     <!-- Architecture Card -->
     <div class="rounded-2xl border border-zinc-800  bg-zinc-900/40 backdrop-blur-md p-5 hover:border-green-500/40 transition-all duration-300">
 
@@ -20,19 +20,19 @@ export const about = () => {
 
       <div class="flex flex-col items-center gap-3">
 
-        <div class=" w-full rounded-xl border border-zinc-700 p-3 text-center">
+        <div class="text-sm md:text-md w-full rounded-xl border border-zinc-700 p-2 text-center">
           Event
         </div>
 
         <span class="text-green-500">↓</span>
 
-        <div class=" w-full rounded-xl border border-zinc-700 p-3 text-center">
+        <div class="text-sm md:text-md w-full rounded-xl border border-zinc-700 p-2 text-center">
           State
         </div>
 
         <span class="text-green-500">↓</span>
 
-        <div class=" w-full rounded-xl border border-zinc-700 p-3 text-center ">
+        <div class="text-sm md:text-md w-full rounded-xl border border-zinc-700 p-2 text-center ">
           Render UI
         </div>
 
@@ -59,16 +59,16 @@ export const about = () => {
     </div>
 
     <!-- Code Snippet Card -->
-    <div class="lg:col-span-2 rounded-2xl border border-zinc-800  bg-zinc-900/40 backdrop-blur-md p-5  hover:border-green-500/40 transition-all duration-300 ">
+    <div class="lg:col-span-3 rounded-2xl border border-zinc-800  bg-zinc-900/40 backdrop-blur-md p-5  hover:border-green-500/40 transition-all duration-300 ">
 
       <p class="text-green-400 text-sm mb-4">
         State Update
       </p>
 
-  <pre class=" text-sm text-zinc-300 leading-7 overflow-x-auto ">
+  <p class="text-sm text-zinc-300 leading-7 overflow-x-auto ">
   portfolioState.isMenuOpen =
   !portfolioState.isMenuOpen;
-  </pre>
+  </p>
     </div>
   </section>
   `

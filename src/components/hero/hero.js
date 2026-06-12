@@ -33,7 +33,7 @@ export const hero = () => {
       </div>
     </section>
     
-  <section id="hero-section-right" class="flex justify-center items-center h-full w-full">
+  <section id="hero-section-right" class="flex justify-center h-auto w-full ">
     <img src="/sarvjeet-portfolio/heroImage.jpeg" alt="Hero Image" class="w-400 h-auto rounded-4xl object-cover px-5">
   </section>
       `
