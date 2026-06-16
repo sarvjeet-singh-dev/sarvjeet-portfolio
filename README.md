@@ -177,4 +177,4 @@ Instead of attaching multiple listeners:
 
 ## Live Demo
 
-[https://sarvjeet-dev-portfolio.netlify.app/]
+https://sarvjeet-singh-dev.github.io/sarvjeet-portfolio/
